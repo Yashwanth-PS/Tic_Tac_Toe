@@ -3,7 +3,7 @@ package service;
 import models.Cell;
 import models.Move;
 
-public class PlayerActions {
+public class MoveService {
     // TO-DO: validate the move and throw exception and Handle it.
     public Move makeMove(Board board) {
         while (true) {  // This loop will keep asking the user for row and column values until they enter a valid move.
@@ -39,3 +39,10 @@ public class PlayerActions {
         }
     }
 }
+
+/* TO-DO code implementation and move validation, and checks for the following scenarios:
+Validate the input row and column to be within the board boundaries.
+Check if the selected cell is empty before making the move.
+If the selected cell is not empty, display an error message
+Ask the player to enter valid coordinates again.
+You can create a custom exception (e.g., InvalidMoveException) to handle these validation errors. */

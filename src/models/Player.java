@@ -61,9 +61,3 @@ public class Player {
     }
 }
 
-/* TO-DO code implementation and move validation, and checks for the following scenarios:
-Validate the input row and column to be within the board boundaries.
-Check if the selected cell is empty before making the move.
-If the selected cell is not empty, display an error message
-Ask the player to enter valid coordinates again.
-You can create a custom exception (e.g., InvalidMoveException) to handle these validation errors. */
