@@ -1,16 +1,22 @@
 package service;
 
+import models.Board;
 import models.Cell;
 import models.Move;
+import models.Player;
+import models.constants.CellState;
+
+import java.util.Scanner;
 
 public class MoveService {
     // TO-DO: validate the move and throw exception and Handle it.
-    public Move makeMove(Board board) {
+    Scanner scanner = new Scanner(System.in);
+    public Move makeMove(Board board, Player player) {
         while (true) {  // This loop will keep asking the user for row and column values until they enter a valid move.
             try {
-                System.out.println(this.getName() + ", Please enter the row for the move");
+                System.out.println(player.getName() + ", Please enter the row for the move");
                 int row = scanner.nextInt();
-                System.out.println(this.getName() + ", Please enter the column for the move");
+                System.out.println(player.getName() + ", Please enter the column for the move");
                 int col = scanner.nextInt();
 
                 // Validate the move and throw an exception if it's invalid
