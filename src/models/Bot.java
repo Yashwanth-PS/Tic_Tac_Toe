@@ -1,6 +1,7 @@
 package models;
 
-import Tic_Tac_Toe.Strategies.BotPlayingStrategy.BotPlayingStrategy;
+import models.constants.BotDifficultyLevel;
+import models.constants.PlayerType;
 
 public class Bot extends Player{
     private BotDifficultyLevel botDifficultyLevel;

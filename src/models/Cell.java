@@ -21,6 +21,16 @@ public class Cell {
         this.cellState = CellState.FILLED;
     }
 
+    public void display(){
+        if(player == null){
+            System.out.print("| |");
+        } else if(cellState.equals(CellState.BLOCKED)){
+            System.out.print("||||");
+        } else{
+            System.out.print("|" + player.getSymbol().getSymbolChar() + "|");
+        }
+    }
+
     public int getRow() {
         return row;
     }
