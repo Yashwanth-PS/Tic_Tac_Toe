@@ -1,5 +1,7 @@
 package models;
 
+import exception.InvalidMoveException;
+import models.constants.CellState;
 import models.constants.PlayerType;
 
 import java.util.Scanner;
