@@ -7,7 +7,10 @@
 
 **Models:**
 
-1) Created the Symbol Class
-2) Created the Cell Class
-3) Created the Player Class
-4) Created the Move Class
+1) Created the Board Class
+2) Created the Bot Class
+3) Created the Cell Class
+4) Created the Game Class
+5) Created the Move Class
+6) Created the Player Class
+7) Created the Symbol Class
