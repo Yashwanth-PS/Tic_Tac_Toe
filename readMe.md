@@ -14,3 +14,7 @@
 5) Created the Move Class
 6) Created the Player Class
 7) Created the Symbol Class
+
+**Strategies**:
+
+1) Bot Playing Strategy

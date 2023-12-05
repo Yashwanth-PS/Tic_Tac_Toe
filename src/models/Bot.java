@@ -2,6 +2,7 @@ package models;
 
 import models.constants.BotDifficultyLevel;
 import models.constants.PlayerType;
+import strategies.BotPlayingStrategy.BotPlayingStrategy;
 
 public class Bot extends Player{
     private BotDifficultyLevel botDifficultyLevel;
