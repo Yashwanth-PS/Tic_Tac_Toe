@@ -1,5 +1,6 @@
 package strategies.WinningStrategy;
 
+import exception.GameDrawnException;
 import models.Board;
 import models.Move;
 import models.Player;

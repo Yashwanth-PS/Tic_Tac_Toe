@@ -1,6 +1,7 @@
 package models;
 
 import models.constants.GameState;
+import strategies.WinningStrategy.WinningStrategy;
 
 import java.util.ArrayList;
 import java.util.HashSet;
