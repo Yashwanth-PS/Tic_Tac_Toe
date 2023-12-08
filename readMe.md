@@ -20,7 +20,7 @@
 1) Bot Playing Strategy
 2) Winning Strategy
 
-Condition for Check:-
+**Condition for Check:-**
 
 1] Check for top Left Diagonal: Whether the player won by having all
 same symbols through top-left diagonal
@@ -37,3 +37,11 @@ if(cell.row + cell.col == dimension - 1)
 - 0, dimension - 1
 - dimension - 1, 0
 - dimension - 1, dimension - 1
+
+**Controller**
+
+Game Controller
+
+**Main Class**
+
+TicTacToe Game 
